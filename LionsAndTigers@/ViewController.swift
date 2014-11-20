@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -17,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var breedLabel: UILabel!
     
     var myTigers:[Tiger] = []
+    
+    var currentIndex: Int = 0
     
     
     override func viewDidLoad() {
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
         myTiger.breed = "Bengal"
         myTiger.age = 3
         myTiger.image = UIImage(named: "BengalTiger.jpg")
+        
+        myTiger.chuff()
         
         myTigers.append(myTiger)
         
@@ -67,8 +70,14 @@ class ViewController: UIViewController {
     }
     @IBAction func nextBarButtonItemPressed(sender: UIBarButtonItem)
     {
-    let randomIndex = Int(arc4random_uniform(UInt32(myTigers.count))
-   )
+        var randomIndex:Int
+       do {
+        
+        randomIndex = Int(arc4random_uniform(UInt32(myTigers.count))
+        )} while currentIndex == randomIndex
+        
+        currentIndex = randomIndex
+        
         let tiger = myTigers[randomIndex]
     
 //    myImageView.image = tiger.image
@@ -90,6 +99,6 @@ class ViewController: UIViewController {
     }
     
 
-
 }
+
 

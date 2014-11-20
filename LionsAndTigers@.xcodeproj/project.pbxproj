@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB5095921A1D50F700F87F58 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; };
 		CBC779A91A16EF3F00CB0D34 /* LionsAndTigers@.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LionsAndTigers@.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC779AD1A16EF3F00CB0D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC779AE1A16EF3F00CB0D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 				CBC779B01A16EF3F00CB0D34 /* ViewController.swift */,
 				CBC779CE1A1709AA00CB0D34 /* Tiger.swift */,
 				CBC779B21A16EF3F00CB0D34 /* Main.storyboard */,
+				CB5095921A1D50F700F87F58 /* Functions.playground */,
 				CBC779B51A16EF3F00CB0D34 /* Images.xcassets */,
 				CBC779B71A16EF3F00CB0D34 /* LaunchScreen.xib */,
 				CBC779AC1A16EF3F00CB0D34 /* Supporting Files */,
@@ -451,6 +453,7 @@
 				CBC779CA1A16EF3F00CB0D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC779CB1A16EF3F00CB0D34 /* Build configuration list for PBXNativeTarget "LionsAndTigers@Tests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +462,7 @@
 				CBC779CD1A16EF3F00CB0D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
