@@ -27,4 +27,49 @@ struct Tiger {
         }
     }
     
+    func chuffANumberOfTimes (numberOfTimes: Int, isLoud: Bool) {
+        for var chuffTimes = 1; chuffTimes <= numberOfTimes; chuffTimes++ {
+            if isLoud {
+                chuff()
+            }
+            else {
+                println("Tiger: purr purr")
+            }
+        }
+        
+    }
+    
+    func ageInTigerYearFromAge (regularAge: Int) -> Int {
+        
+        let newAge = regularAge * 3
+        return regularAge
+    }
+    
+    func randomFact() -> String {
+        let randomNumer = Int(arc4random_uniform(UInt32(3)))
+        
+        var randomFact:String
+        
+        if randomNumer == 0 {
+            randomFact = "The Tiger is the biggest species i nthe cat family"
+        }
+        else if randomNumer == 1 {
+            randomFact = "Tigers can reach a length of 3.3 metres"
+
+        }
+        else if randomNumer == 2 {
+            randomFact = "A group of tigers is known as an 'ambush' or 'streak' "
+            
+        }
+        else {
+            randomFact = "Error"
+        }
+    
+        
+        return randomFact
+    }
+    
+    
+    
+    
 }
