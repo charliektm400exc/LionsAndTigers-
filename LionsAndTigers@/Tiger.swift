@@ -48,7 +48,7 @@ struct Tiger {
     func randomFact() -> String {
         let randomNumer = Int(arc4random_uniform(UInt32(3)))
         
-        var randomFact:String
+        var randomFact:String; "Error"
         
         if randomNumer == 0 {
             randomFact = "The Tiger is the biggest species i nthe cat family"
