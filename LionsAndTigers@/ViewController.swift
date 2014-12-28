@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     var myTigers:[Tiger] = []
     var lions:[Lion] = []
+    var lioncubs: [LionCub] = []
+    
     
     var currentIndex: Int = 0
     var currentAnimal = (species: "Tiger", index: 0)
@@ -94,6 +96,29 @@ class ViewController: UIViewController {
         lion.roar()
         lioness.roar()
         
+        lion.changeToAlphaMale()
+        println(lion.isAlphaMale)
+        
+        var lionCub = LionCub()
+        lionCub.age = 1
+        lionCub.name = "Simba"
+        lionCub.image = UIImage (named: "LionCub1.jpg")
+        lionCub.subSpecies = "Masai"
+        lionCub.isAlphaMale = true
+        
+        lionCub.roar()
+        lionCub.rubLionCubsBelly()
+        
+        var femaleLionCub = LionCub()
+        femaleLionCub.age = 1
+        femaleLionCub.name = "Nala"
+        femaleLionCub.image = UIImage(named: "LionCub2.jpeb")
+        femaleLionCub.subSpecies = "Transvaal"
+        femaleLionCub.isAlphaMale = false
+        
+        self.lioncubs += [lionCub, femaleLionCub]
+        
+        
         self.lions += [lion, lioness]
         
         
@@ -139,6 +164,8 @@ class ViewController: UIViewController {
                     self.breedLabel.text = lion.subSpecies
                     self.ageLabel.text = "\(lion.age)"
                     self.nameLabel.text = lion.name
+                    self.randomFactLabel.text = lion.randomFact()
+                
                 
             }
             self.randomFactLabel.hidden = false

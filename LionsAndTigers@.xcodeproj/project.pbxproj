@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0EFAFF1A4F53F200D4D3C3 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0EFAFE1A4F53F200D4D3C3 /* LionCub.swift */; };
 		CBC779AF1A16EF3F00CB0D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC779AE1A16EF3F00CB0D34 /* AppDelegate.swift */; };
 		CBC779B11A16EF3F00CB0D34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC779B01A16EF3F00CB0D34 /* ViewController.swift */; };
 		CBC779B41A16EF3F00CB0D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC779B21A16EF3F00CB0D34 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		CB08B82A1A1DABE000EE25C4 /* SwitchStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwitchStatements.playground; sourceTree = "<group>"; };
+		CB0EFAFE1A4F53F200D4D3C3 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 		CB5095921A1D50F700F87F58 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; };
 		CBC779A91A16EF3F00CB0D34 /* LionsAndTigers@.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LionsAndTigers@.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC779AD1A16EF3F00CB0D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				CBC779AE1A16EF3F00CB0D34 /* AppDelegate.swift */,
 				CBC779B01A16EF3F00CB0D34 /* ViewController.swift */,
+				CB0EFAFE1A4F53F200D4D3C3 /* LionCub.swift */,
 				CBDFA4631A3669FD0048BAD3 /* Lions.swift */,
 				CBC779CE1A1709AA00CB0D34 /* Tiger.swift */,
 				CB08B82A1A1DABE000EE25C4 /* SwitchStatements.playground */,
@@ -264,6 +267,7 @@
 			files = (
 				CBC779B11A16EF3F00CB0D34 /* ViewController.swift in Sources */,
 				CBC779CF1A1709AA00CB0D34 /* Tiger.swift in Sources */,
+				CB0EFAFF1A4F53F200D4D3C3 /* LionCub.swift in Sources */,
 				CBC779AF1A16EF3F00CB0D34 /* AppDelegate.swift in Sources */,
 				CBDFA4641A3669FD0048BAD3 /* Lions.swift in Sources */,
 			);
