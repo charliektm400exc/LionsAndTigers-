@@ -31,6 +31,7 @@ class LionCub: Lion {
         else {
             randomFactString = "Cubs begin eating meat at about the age of six weeks"
         }
+        println(randomFactString)
         return randomFactString
     }
 }
